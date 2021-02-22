@@ -28,16 +28,16 @@
   fill: var(--primary-icon-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.client-link:focus,
-.client-link:hover {
-  border-color: var(--accent-color);
-}
+  &:focus,
+  &:hover {
+    border-color: var(--accent-color);
+  }
 
-.client-link:focus,
-.client-link:hover {
-  fill: var(--accent-color);
+  &:focus,
+  &:hover {
+    fill: var(--accent-color);
+  }
 }
 
 .logo1 {

@@ -14,12 +14,13 @@
 .about-list {
   display: flex;
 }
+
 .about-item {
   position: relative;
-}
 
-.about-item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .description-img {
